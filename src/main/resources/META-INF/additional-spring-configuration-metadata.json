@@ -1,0 +1,15 @@
+{
+  "properties": [
+    {
+      "name": "jwt.secret",
+      "type": "java.lang.String",
+      "description": "Secret to be used by JWT token generation",
+      "required": true
+    },
+    {
+      "name": "jwt.refresh",
+      "type": "java.lang.String",
+      "description": "key for refresh tokens"
+    }
+  ]
+}

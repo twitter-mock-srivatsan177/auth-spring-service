@@ -1,0 +1,16 @@
+
+spring:
+  application:
+    name: auth
+  data:
+    mongodb:
+      uri: mongodb://username:password@host:port/db?authSource=admin
+      auto-index-creation: true
+
+jwt:
+  secret: 256-bit-key
+  refresh: 256-bit-key
+
+server:
+  port: 8081
+
